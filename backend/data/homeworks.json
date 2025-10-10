@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "courseName": "高等数学",
+    "dueDate": "2025-11-05",
+    "requirements": "完成习题册第35-40页，提交纸质版",
+    "status": "未完成",
+    "attachment": "math_exercise.pdf"
+  },
+  {
+    "id": 2,
+    "courseName": "数据结构",
+    "dueDate": "2025-11-10",
+    "requirements": "实现链表反转算法，提交GitHub链接",
+    "status": "未完成",
+    "attachment": ""
+  },
+  {
+    "id": 3,
+    "courseName": "大学英语",
+    "dueDate": "2025-10-30",
+    "requirements": "写一篇关于环境保护的英语作文（200词）",
+    "status": "已完成",
+    "attachment": "english_essay.docx"
+  },
+  {
+    "id": 4,
+    "courseName": "操作系统",
+    "dueDate": "2025-11-15",
+    "requirements": "完成进程调度模拟实验报告",
+    "status": "未完成",
+    "attachment": "os_lab_template.docx"
+  }
+]

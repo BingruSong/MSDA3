@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "高等数学",
+    "teacher": "张教授",
+    "location": "第一教学楼101",
+    "time": "08:00 - 09:40",
+    "day": "Monday",
+    "week": "1-16周"
+  },
+  {
+    "id": 2,
+    "name": "大学英语",
+    "teacher": "李老师",
+    "location": "第二教学楼203",
+    "time": "10:00 - 11:40",
+    "day": "Tuesday",
+    "week": "1-16周"
+  },
+  {
+    "id": 3,
+    "name": "数据结构",
+    "teacher": "王教授",
+    "location": "计算机楼305",
+    "time": "14:00 - 15:40",
+    "day": "Wednesday",
+    "week": "3-16周"
+  },
+  {
+    "id": 4,
+    "name": "操作系统",
+    "teacher": "赵老师",
+    "location": "计算机楼402",
+    "time": "16:00 - 17:40",
+    "day": "Thursday",
+    "week": "1-14周"
+  },
+  {
+    "id": 5,
+    "name": "人工智能导论",
+    "teacher": "陈教授",
+    "location": "实验楼501",
+    "time": "09:00 - 10:40",
+    "day": "Friday",
+    "week": "5-16周"
+  }
+]
