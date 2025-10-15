@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Schedule</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Class Schedule</h1>
+        </header>
+
+        <div class="view-toggle">
+            <button class="btn-view active" onclick="switchToWeekView()">
+                <i class="fas fa-calendar-week"></i> Week View
+            </button>
+            <button class="btn-view" onclick="switchToDayView()">
+                <i class="fas fa-calendar-day"></i> Day View
+            </button>
+        </div>
+
+        <div id="week-view" class="schedule-view active">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time Slot</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                        <th>Saturday</th>
+                        <th>Sunday</th>
+                    </tr>
+                </thead>
+                <tbody id="week-schedule-body">
+                    <!-- 周视图课程数据将通过JavaScript动态加载 -->
+                </tbody>
+            </table>
+        </div>
+
+        <div id="day-view" class="schedule-view">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time Slot</th>
+                        <th>Course Name</th>
+                        <th>Instructor</th>
+                        <th>Location</th>
+                    </tr>
+                </thead>
+                <tbody id="day-schedule-body">
+                    <!-- 日视图课程数据将通过JavaScript动态加载 -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="btn-group">
+            <button class="btn btn-back" onclick="window.location.href='/'">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </button>
+            <button class="btn btn-homework" onclick="window.location.href='/homework'">
+                <i class="fas fa-list-alt"></i> Manage Assignments
+            </button>
+        </div>
+    </div>
+
+    <script src="js/schedule.js"></script>
+</body>
+</html>
