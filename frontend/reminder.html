@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course & Homework Management System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mb-4">Course & Homework Management System</h1>
+
+        <div class="card assignments">
+            <div class="card-header bg-primary text-white">
+                <h3>Assignments Due Within 3 Days</h3>
+            </div>
+            <div class="card-body">
+                <table id="upcoming-assignments" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Related Course</th>
+                            <th>Due Date</th>
+                            <th>Days Left</th>
+                            <th>Requirements</th>
+                            <th>Attachment</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- 作业数据将通过JavaScript动态加载 -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="btn-group d-flex justify-content-center gap-2 mt-4">
+            <button class="btn btn-primary" onclick="window.location.href='/schedule'">
+                <i class="fas fa-calendar"></i> View Schedule
+            </button>
+            <button class="btn btn-success" onclick="window.location.href='/courses'">
+                <i class="fas fa-book"></i> Manage Courses
+            </button>
+            <button class="btn btn-info" onclick="window.location.href='/homework'">
+                <i class="fas fa-list-alt"></i> Manage Assignments
+            </button>
+        </div>
+    </div>
+
+    <script src="js/reminder.js"></script>
+</body>
+</html>
+    
